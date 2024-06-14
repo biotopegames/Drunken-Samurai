@@ -205,20 +205,13 @@ public class Player : MonoBehaviour
     {
         stats.currentHealth += healthAmount;
     }
-
+    
     public void LevelUp()
     {
         stats.level++;
         stats.currentExp = 0;
-        HUD.Instance.ShowLevelUpScreen(true);
+        //HUD.Instance.ShowLevelUpScreen(true);
         SoundManager.Instance.PlaySound(SoundManager.Instance.levelUpSound, 0.05f);
-
-        //int x;
-        // if (stats.currentExp > stats.expNeededToLevelUp)
-        // {
-        //     x = stats.expNeededToLevelUp - stats.currentExp;
-        //     GainExp(x);
-        // }
     }
 
     void OnDrawGizmos()

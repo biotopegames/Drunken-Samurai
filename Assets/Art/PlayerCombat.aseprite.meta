@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 7248432cd3e6bbe4195744a531c2af52
+guid: a07407d31b5f9a440acd405d7580c3a0
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,18 +121,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: icons
+  - name: PlayerCombat
     originalName: 
-    pivot: {x: 0.5043478, y: -0.3181818}
+    pivot: {x: 0.5185185, y: -0.03773585}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 230
-      height: 44
-    spriteID: 98552321d938ff94d985a48d0478f415
+      width: 27
+      height: 53
+    spriteID: b4dda7926893b7c479bc4b7c42d10303
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -144,25 +144,25 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -1757617384
-    name: icons
+    guid: 674258241
+    name: PlayerCombat
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: icons
+    - name: PlayerCombat
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 12
-        y: 14
-        width: 230
-        height: 44
-      spriteId: 98552321d938ff94d985a48d0478f415
+        x: 18
+        y: 2
+        width: 27
+        height: 53
+      spriteId: b4dda7926893b7c479bc4b7c42d10303
     linkedCells: []
     parentIndex: -1
   platformSettings: []
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 256, y: 64}
+  canvasSize: {x: 64, y: 64}

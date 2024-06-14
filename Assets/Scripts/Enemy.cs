@@ -12,14 +12,15 @@ public class Enemy : MonoBehaviour
     private bool isAlive = true;
     [SerializeField] GameObject itemDrop;
     public float hurtSoundVolume = 0.4f;
+        [SerializeField] private bool hasFought = false;
 
     // Start is called before the first frame update
     void Start()
     {
         anim = GetComponentInChildren<Animator>();
-        stats = GetComponent<Stats>();
-        speed = stats.moveSpeed;
-        rb = GetComponent<Rigidbody2D>(); // Get the Rigidbody2D component
+        //stats = GetComponent<Stats>();
+        //speed = stats.moveSpeed;
+        //rb = GetComponent<Rigidbody2D>(); // Get the Rigidbody2D component
 
         // Find the player GameObject by tag and store its transform
         GameObject player = GameObject.FindGameObjectWithTag("Player");
@@ -29,61 +30,12 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    // FixedUpdate is called once per frame for physics updates
-    void FixedUpdate()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (playerTransform != null && stats.health > 0)
+        if(collision.CompareTag("Player") && hasFought == false)
         {
-            // Calculate the direction vector from the enemy to the player
-            Vector2 direction = (playerTransform.position - transform.position).normalized;
-
-            // Move the enemy towards the player
-            rb.MovePosition(rb.position + direction * speed * Time.fixedDeltaTime);
+            BattleHUD.Instance.StartBattle();
         }
     }
 
-    public void GetHurt(int dmgAmount)
-    {
-        if (isAlive)
-        {
-            stats.health -= dmgAmount;
-            anim.SetTrigger("Hurt");
-            SoundManager.Instance.PlaySound(SoundManager.Instance.hurtSound, hurtSoundVolume, 0.2f);
-
-            if (stats.health <= 0)
-            {
-                Die();
-            }
-        }
-    }
-
-    public void Die()
-    {
-
-        int x;
-        x = Random.Range(0, 16);
-        if(x == 15)
-        {
-            GameManager.Instance.SpawnItem();
-        }
-
-        isAlive = false; 
-        GameManager.Instance.enemiesKilled++;
-        GameManager.Instance.killsFromThisWave++;
-        DropItem();
-        GameManager.Instance.SpawnEnemy();
-        //Player.Instance.GainExp(stats.expGain);
-        Destroy(this.gameObject, 0.3f);
-    }
-
-    public void DropItem()
-    {
-        int x;
-        x = Random.Range(0, 2);
-        if(x != 0 && itemDrop != null)
-        {
-            itemDrop.GetComponent<Item>().expAmount = stats.expGain;
-            Instantiate(itemDrop, transform.position, Quaternion.identity);
-        }
-    }
 }
