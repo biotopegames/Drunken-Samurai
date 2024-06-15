@@ -31,19 +31,6 @@ public class AnimatorFunctions : MonoBehaviour
         //NewPlayer.Instance.Jump(power);
     }
 
-    //Freeze and unfreeze the player movement
-    void FreezePlayer(bool freeze)
-    {
-        //NewPlayer.Instance.Freeze(freeze);
-    }
-
-    //Play a sound through the specified audioSource
-    void PlayStepSound()
-    {
-        StartCoroutine(FinishStepSound() );
-    }
-
-
     IEnumerator FinishStepSound()
     {
         if(!stepSoundIsPlaying)
@@ -77,6 +64,11 @@ public class AnimatorFunctions : MonoBehaviour
     public void SetAnimBoolToFalse(string boolName)
     {
         // setBoolInAnimator.SetBool(boolName, false);
+    }
+
+    public void StopRolling()
+    {
+        //Player.Instance.StopRolling();
     }
 
     public void SetAnimBoolToTrue(string boolName)

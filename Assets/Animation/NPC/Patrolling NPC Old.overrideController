@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Patrolling NPC Old
+  m_Controller: {fileID: 9100000, guid: 9523fce81d21fb743b90f4d62732166a, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: cc33bd096da05fb44ab7209053739b67, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 3951eecfebd925b43904c6cbff0feb9a, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 3fc2cf35715a3c24fa6dc30252db4a47, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: bf38fde1b5e3f2b47bb3b86e6f0a3b2e, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 0a87b879fc49c3a4ab128fea138c7f07, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: b8ef01851e0b6de40911c44be4185bec, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 24b5ee9219bf3f44aaf7c05676ce41ad, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 165c4f115047aa9478ffb399af95c154, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: c2a3fbac221140b4898caacefcbed1f7, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 52ee42c4a614bf64aa87f20e2f3a96a8, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 0fa6b4dadbfce39468fd2369e425f424, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 3ac49a24d75e31345b48976ed59ba154, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: ac06cd88e4ffe1841b29a6795bb98a2f, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 8b02c42983e65444f8b50fb1c5b97e01, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 508c9dd0568b77640af64e0c8b81fed9, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 6035d15f90735994989138eb6e66842a, type: 2}

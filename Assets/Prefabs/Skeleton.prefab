@@ -72,7 +72,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -248397431
-  m_SortingLayer: 1
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: -841347319, guid: bf3309614d6b07e408d0a66f82dbe06e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -119,6 +119,7 @@ GameObject:
   - component: {fileID: 8382307246424533376}
   - component: {fileID: 8382307246424533439}
   - component: {fileID: 8382307246424533438}
+  - component: {fileID: 2870701000520855687}
   m_Layer: 0
   m_Name: Skeleton
   m_TagString: Enemy
@@ -193,6 +194,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemDrop: {fileID: 5915748451900643244, guid: 05f782d28aebc4a459332d5ea267a396, type: 3}
   hurtSoundVolume: 0.4
+  isKnockedBack: 0
 --- !u!114 &8382307246424533438
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -209,3 +211,17 @@ MonoBehaviour:
   health: 1
   moveSpeed: 0.12
   expGain: 10
+  honorGain: 10
+--- !u!114 &2870701000520855687
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8382307246424533378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9835664edbb7295499c9ac5f0e277d0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  recoveryTime: 0.1

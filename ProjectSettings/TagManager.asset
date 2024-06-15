@@ -6,6 +6,7 @@ TagManager:
   tags:
   - PlayerAttack
   - Enemy
+  - ItemSlot
   layers:
   - Default
   - TransparentFX
@@ -45,6 +46,15 @@ TagManager:
     locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Effects
+    uniqueID: 1113643619
+    locked: 0
+  - name: Trees
+    uniqueID: 695041587
+    locked: 0
+  - name: Buildings
+    uniqueID: 2357944923
     locked: 0
   - name: Entities
     uniqueID: 4046569865

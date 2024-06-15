@@ -72,7 +72,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -248397431
-  m_SortingLayer: 1
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: 1145148564, guid: 69f1dc06b660b4149934ba56f2d70c98, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -119,6 +119,7 @@ GameObject:
   - component: {fileID: 8382307246424533376}
   - component: {fileID: 8382307246424533439}
   - component: {fileID: 8382307246424533438}
+  - component: {fileID: -3061479581965779911}
   m_Layer: 0
   m_Name: RareSkeleton
   m_TagString: Enemy
@@ -152,11 +153,11 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.030308694}
-  m_Size: {x: 0.06, y: 0.13375765}
+  m_Offset: {x: 0.005056955, y: -0.038742147}
+  m_Size: {x: 0.12826891, y: 0.13964708}
   m_Direction: 0
 --- !u!50 &8382307246424533376
 Rigidbody2D:
@@ -170,7 +171,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 1
-  m_Mass: 0.007252892
+  m_Mass: 0.014381554
   m_LinearDrag: 0
   m_AngularDrag: 0
   m_GravityScale: 0
@@ -193,6 +194,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemDrop: {fileID: 5915748451900643244, guid: 05f782d28aebc4a459332d5ea267a396, type: 3}
   hurtSoundVolume: 0.4
+  isKnockedBack: 0
 --- !u!114 &8382307246424533438
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -209,3 +211,17 @@ MonoBehaviour:
   health: 10
   moveSpeed: 0.12
   expGain: 300
+  honorGain: 50
+--- !u!114 &-3061479581965779911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8382307246424533378}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9835664edbb7295499c9ac5f0e277d0e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  recoveryTime: 0.1

@@ -9,6 +9,8 @@ public class DebugHelper : MonoBehaviour
     public TextMeshProUGUI hp;
     public TextMeshProUGUI movespeed;
     public TextMeshProUGUI cd;
+    public TextMeshProUGUI canMove;
+
 
     // Start is called before the first frame update
     void Start()
@@ -23,6 +25,5 @@ public class DebugHelper : MonoBehaviour
         hp.text = Player.Instance.stats.maxHealth.ToString();
         cd.text = Player.Instance.stats.dashCooldown.ToString();
         movespeed.text = Player.Instance.stats.moveSpeed.ToString();
-
     }
 }

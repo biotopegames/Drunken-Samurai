@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1517624883107730310
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2815740934246658693, guid: 28c956d0e6be88946ab591ca737c4f51, type: 3}
+      propertyPath: npcName
+      value: Blacksmith
+      objectReference: {fileID: 0}
+    - target: {fileID: 2815740934246658693, guid: 28c956d0e6be88946ab591ca737c4f51, type: 3}
+      propertyPath: dialogueManager
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2815740934246658693, guid: 28c956d0e6be88946ab591ca737c4f51, type: 3}
+      propertyPath: dialogue.Array.data[0]
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 2815740934246658693, guid: 28c956d0e6be88946ab591ca737c4f51, type: 3}
+      propertyPath: dialogue.Array.data[1]
+      value: Hi there!
+      objectReference: {fileID: 0}
+    - target: {fileID: 2815740934246658693, guid: 28c956d0e6be88946ab591ca737c4f51, type: 3}
+      propertyPath: dialogue.Array.data[2]
+      value: Did you know you can collect materials in the portals
+      objectReference: {fileID: 0}
+    - target: {fileID: 2815740934246658693, guid: 28c956d0e6be88946ab591ca737c4f51, type: 3}
+      propertyPath: dialogue.Array.data[3]
+      value: If you get some get back to me I can help you craft items
+      objectReference: {fileID: 0}
+    - target: {fileID: 2815740934246658808, guid: 28c956d0e6be88946ab591ca737c4f51, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2815740934246658808, guid: 28c956d0e6be88946ab591ca737c4f51, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2.324
+      objectReference: {fileID: 0}
+    - target: {fileID: 2815740934246658808, guid: 28c956d0e6be88946ab591ca737c4f51, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.268
+      objectReference: {fileID: 0}
+    - target: {fileID: 2815740934246658808, guid: 28c956d0e6be88946ab591ca737c4f51, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2815740934246658808, guid: 28c956d0e6be88946ab591ca737c4f51, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2815740934246658808, guid: 28c956d0e6be88946ab591ca737c4f51, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2815740934246658808, guid: 28c956d0e6be88946ab591ca737c4f51, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2815740934246658808, guid: 28c956d0e6be88946ab591ca737c4f51, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2815740934246658808, guid: 28c956d0e6be88946ab591ca737c4f51, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2815740934246658808, guid: 28c956d0e6be88946ab591ca737c4f51, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2815740934246658808, guid: 28c956d0e6be88946ab591ca737c4f51, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2815740934246658809, guid: 28c956d0e6be88946ab591ca737c4f51, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 1856940332, guid: ff7b273d5198fce48bfa0826661d30d0, type: 3}
+    - target: {fileID: 2815740934246658811, guid: 28c956d0e6be88946ab591ca737c4f51, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 22100000, guid: 534ac5ef2286b9148946ed83cdfb1c0f, type: 2}
+    - target: {fileID: 2815740934246658814, guid: 28c956d0e6be88946ab591ca737c4f51, type: 3}
+      propertyPath: m_Name
+      value: Blacksmith NPC
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 28c956d0e6be88946ab591ca737c4f51, type: 3}

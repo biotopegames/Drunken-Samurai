@@ -12,10 +12,11 @@ public class PlayerStats : ScriptableObject
     public int currentHealth = 100;
     public int maxHealth = 100;
     public int damage;
-    public int armor;
+    public int defense;
     public int level;
     public int currentExp = 0;
     public int expNeededToLevelUp = 0;
+    public int honor = 0;
 
 
 }

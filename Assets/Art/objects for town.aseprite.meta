@@ -1,0 +1,387 @@
+fileFormatVersion: 2
+guid: 8a1ab69e043240c4dbb897565314b031
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMasterTextureLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 0
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 0
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    mosaicPadding: 4
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 638497694127116395
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: objects for town
+    originalName: 
+    pivot: {x: 0.38797814, y: -0.8064516}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 366
+      height: 124
+    spriteID: 0e61e3949216eba4b87ebef1f7a5a807
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  spriteSheetImportData:
+  - name: objects for town_0
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 27
+      width: 40
+      height: 36
+    spriteID: 86c0b80cb5ec6e54ba8bea21351955e4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: objects for town_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 74
+      y: 38
+      width: 12
+      height: 14
+    spriteID: bdc6fad760295a748939e83dffc496dc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  - name: objects for town_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 142
+      y: 5
+      width: 113
+      height: 123
+    spriteID: 8ff4a3b2383b66d409c168ea2d538415
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline:
+    - outline:
+      - {x: 3.5, y: -12.5}
+      - {x: 2.5, y: -11.5}
+      - {x: 6.5, y: -10.5}
+      - {x: 12.5, y: -7.5}
+      - {x: 17.5, y: -12.5}
+      - {x: 29.5, y: -13.5}
+      - {x: 31.5, y: -11.5}
+      - {x: 36.5, y: -11.5}
+      - {x: 41.5, y: -6.5}
+      - {x: 41.5, y: -3.5}
+      - {x: 40.5, y: -2.5}
+      - {x: 43.5, y: -2.5}
+      - {x: 48.5, y: -0.5}
+      - {x: 48.5, y: 2.5}
+      - {x: 54.5, y: 8.5}
+      - {x: 54.5, y: 10.5}
+      - {x: 56.5, y: 12.5}
+      - {x: 56.5, y: 20.5}
+      - {x: 55.5, y: 21.5}
+      - {x: 55.5, y: 24.5}
+      - {x: 56.5, y: 26.5}
+      - {x: 49.5, y: 33.5}
+      - {x: 47.5, y: 33.5}
+      - {x: 41.5, y: 37.5}
+      - {x: 37.5, y: 37.5}
+      - {x: 36.5, y: 36.5}
+      - {x: 33.5, y: 36.5}
+      - {x: 32.5, y: 37.5}
+      - {x: 32.5, y: 39.5}
+      - {x: 29.5, y: 42.5}
+      - {x: 29.5, y: 44.5}
+      - {x: 30.5, y: 46.5}
+      - {x: 26.5, y: 50.5}
+      - {x: 25.5, y: 50.5}
+      - {x: 24.5, y: 51.5}
+      - {x: 24.5, y: 53.5}
+      - {x: 21.5, y: 56.5}
+      - {x: 20.5, y: 56.5}
+      - {x: 16.5, y: 61.5}
+      - {x: -1.5, y: 61.5}
+      - {x: -4.5, y: 58.5}
+      - {x: -5.5, y: 58.5}
+      - {x: -7.5, y: 60.5}
+      - {x: -11.5, y: 60.5}
+      - {x: -15.5, y: 57.5}
+      - {x: -18.5, y: 56.5}
+      - {x: -19.5, y: 57.5}
+      - {x: -23.5, y: 57.5}
+      - {x: -27.5, y: 54.5}
+      - {x: -28.5, y: 52.5}
+      - {x: -29.5, y: 52.5}
+      - {x: -31.5, y: 51.5}
+      - {x: -32.5, y: 48.5}
+      - {x: -32.5, y: 45.5}
+      - {x: -34.5, y: 42.5}
+      - {x: -38.5, y: 42.5}
+      - {x: -40.5, y: 40.5}
+      - {x: -40.5, y: 39.5}
+      - {x: -44.5, y: 37.5}
+      - {x: -45.5, y: 35.5}
+      - {x: -46.5, y: 35.5}
+      - {x: -53.5, y: 29.5}
+      - {x: -53.5, y: 28.5}
+      - {x: -55.5, y: 26.5}
+      - {x: -55.5, y: 24.5}
+      - {x: -56.5, y: 23.5}
+      - {x: -56.5, y: 9.5}
+      - {x: -50.5, y: 3.5}
+      - {x: -48.5, y: 3.5}
+      - {x: -46.5, y: 1.5}
+      - {x: -44.5, y: 1.5}
+      - {x: -40.5, y: -2.5}
+      - {x: -37.5, y: -2.5}
+      - {x: -34.5, y: -4.5}
+      - {x: -29.5, y: -9.5}
+      - {x: -26.5, y: -9.5}
+      - {x: -25.5, y: -8.5}
+      - {x: -24.5, y: -9.5}
+      - {x: -18.5, y: -9.5}
+      - {x: -18.5, y: -14.5}
+      - {x: -13.5, y: -19.5}
+      - {x: -10.5, y: -19.5}
+      - {x: -8.5, y: -18.5}
+      - {x: -8.5, y: -28.5}
+      - {x: -9.5, y: -29.5}
+      - {x: -9.5, y: -44.5}
+      - {x: -4.5, y: -46.5}
+      - {x: -1.5, y: -46.5}
+      - {x: 2.5, y: -42.5}
+      - {x: 2.5, y: -33.5}
+      - {x: 3.5, y: -32.5}
+    - outline:
+      - {x: 17.5, y: 1.5}
+      - {x: 18.5, y: 1.5}
+      - {x: 16.5, y: 0.5}
+      - {x: 17.5, y: 0.5}
+    indices: 
+    edges: []
+    tessellationDetail: 1
+    uvTransform: {x: 0, y: 0}
+  - name: objects for town_3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 299
+      y: 4
+      width: 71
+      height: 104
+    spriteID: 778f0c7fd72874442b3d990a96658bc8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  asepriteLayers:
+  - layerIndex: 0
+    guid: 444257267
+    name: objects for town
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: objects for town
+      frameIndex: 0
+      additiveSortOrder: 0
+      cellRect:
+        x: 182
+        y: 100
+        width: 366
+        height: 124
+      spriteId: 0e61e3949216eba4b87ebef1f7a5a807
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: WebGL
+    overridden: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  generatePhysicsShape: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 648, y: 286}

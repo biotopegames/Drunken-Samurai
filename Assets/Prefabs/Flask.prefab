@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 5915748451900643234}
   - component: {fileID: 5915748451900643233}
   - component: {fileID: 5915748451900643232}
-  - component: {fileID: 5915748451900643247}
+  - component: {fileID: 4924713533815565060}
   m_Layer: 0
   m_Name: Flask
   m_TagString: Untagged
@@ -77,7 +77,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -248397431
-  m_SortingLayer: 1
+  m_SortingLayer: 4
   m_SortingOrder: 0
   m_Sprite: {fileID: -340179860, guid: 94ee6ad927631d540b1ec3890cee0d89, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -160,7 +160,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fc1d50526d32404e9703e2d6865c1e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &5915748451900643247
+  pickUpRadius: 0
+  isInventoryItem: 0
+  item: {fileID: 0}
+--- !u!114 &4924713533815565060
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -169,11 +172,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 5915748451900643244}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 376cf8c7cb19e5f4f8e851e359970e0f, type: 3}
+  m_Script: {fileID: 11500000, guid: 761b475676aea81428e48181c5a28b56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   expAmount: 0
-  healAmount: 50
+  healAmount: 10
+  honorAmount: 0
 --- !u!1 &5915748452670308082
 GameObject:
   m_ObjectHideFlags: 0

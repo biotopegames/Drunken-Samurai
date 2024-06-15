@@ -18,7 +18,8 @@ MonoBehaviour:
   currentHealth: 100
   maxHealth: 100
   damage: 1
-  armor: 0
+  defense: 0
   level: 1
-  currentExp: 0
-  expNeededToLevelUp: 100
+  currentExp: 40
+  expNeededToLevelUp: 300
+  honor: 50

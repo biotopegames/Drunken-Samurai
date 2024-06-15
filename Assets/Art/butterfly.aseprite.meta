@@ -21,13 +21,11 @@ ScriptedImporter:
     convertToNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
-    flipGreenChannel: 0
-    swizzle: 50462976
     isReadable: 0
     streamingMipmaps: 0
     streamingMipmapsPriority: 0
     vTOnly: 0
-    ignoreMipmapLimit: 0
+    ignoreMasterTextureLimit: 0
     nPOTScale: 1
     sRGBTexture: 1
     spriteMode: 2
@@ -129,7 +127,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 4
+      y: 31
       width: 16
       height: 16
     spriteID: 82e62444edabb9b438ff95397ea82623
@@ -140,7 +138,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 4}
+    uvTransform: {x: 4, y: 31}
   - name: butterfly_Frame_1
     originalName: 
     pivot: {x: 3.5625, y: -4.9375}
@@ -149,7 +147,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 28
+      y: 55
       width: 16
       height: 16
     spriteID: 3d15976eebfdc6842b0a1f1e56086dd2
@@ -160,7 +158,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 28}
+    uvTransform: {x: 4, y: 55}
   - name: butterfly_Frame_2
     originalName: 
     pivot: {x: 3.25, y: -5.125}
@@ -169,7 +167,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 52
+      y: 79
       width: 16
       height: 16
     spriteID: a0115895371dbea4b935ade650ff2ba1
@@ -180,7 +178,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 52}
+    uvTransform: {x: 4, y: 79}
   - name: butterfly_Frame_3
     originalName: 
     pivot: {x: 3, y: -5}
@@ -189,7 +187,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 76
+      y: 103
       width: 16
       height: 16
     spriteID: baea703d0e806a34c90a2f4491372b28
@@ -200,7 +198,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 76}
+    uvTransform: {x: 4, y: 103}
   - name: butterfly_Frame_4
     originalName: 
     pivot: {x: 2.625, y: -5.0625}
@@ -208,8 +206,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 100
+      x: 30
+      y: 4
       width: 16
       height: 16
     spriteID: 60be06176a3dee84387986332c753d8b
@@ -220,7 +218,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 100}
+    uvTransform: {x: 30, y: 4}
   - name: butterfly_Frame_5
     originalName: 
     pivot: {x: 2.4375, y: -4.8125}
@@ -228,8 +226,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 28
-      y: 4
+      x: 30
+      y: 28
       width: 16
       height: 16
     spriteID: 9fc9e7d4930380f4c959360f9a5e06b6
@@ -240,16 +238,16 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 28, y: 4}
+    uvTransform: {x: 30, y: 28}
   - name: butterfly_Frame_6
     originalName: 
-    pivot: {x: 2.9375, y: -4.5625}
+    pivot: {x: 2, y: -4.875}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 28
-      y: 28
+      x: 30
+      y: 52
       width: 16
       height: 16
     spriteID: 134dd4db56d8efa44b9f26a711dadda0
@@ -260,16 +258,16 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 28, y: 28}
+    uvTransform: {x: 30, y: 52}
   - name: butterfly_Frame_7
     originalName: 
-    pivot: {x: 3.4375, y: -4.6875}
+    pivot: {x: 1.6875, y: -4.8125}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 28
-      y: 52
+      x: 30
+      y: 76
       width: 16
       height: 16
     spriteID: a75eeb0a79c8aa541b1a591339bd84da
@@ -280,16 +278,16 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 28, y: 52}
+    uvTransform: {x: 30, y: 76}
   - name: butterfly_Frame_8
     originalName: 
-    pivot: {x: 3.875, y: -4.8125}
+    pivot: {x: 1.5625, y: -4.9375}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 28
-      y: 76
+      x: 30
+      y: 100
       width: 16
       height: 16
     spriteID: 86ab18acd14ce0343a9c60437960d7ba
@@ -300,7 +298,127 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 28, y: 76}
+    uvTransform: {x: 30, y: 100}
+  - name: butterfly_Frame_9
+    originalName: 
+    pivot: {x: 2.0625, y: -5.125}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 54
+      y: 4
+      width: 16
+      height: 16
+    spriteID: be08dc79c0bb5594da7eedca3bd3dfe7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 54, y: 4}
+  - name: butterfly_Frame_10
+    originalName: 
+    pivot: {x: 2.4375, y: -4.9375}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 54
+      y: 28
+      width: 16
+      height: 16
+    spriteID: e337516c08b70f14bb496f05904000ea
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 54, y: 28}
+  - name: butterfly_Frame_11
+    originalName: 
+    pivot: {x: 2.5625, y: -4.6875}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 54
+      y: 52
+      width: 16
+      height: 16
+    spriteID: e8285ab80968bbb4a95bdba250c26e1d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 54, y: 52}
+  - name: butterfly_Frame_12
+    originalName: 
+    pivot: {x: 2.9375, y: -4.5625}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 54
+      y: 76
+      width: 16
+      height: 16
+    spriteID: e7b29b68d0ab06740864a6c5d1e74721
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 54, y: 76}
+  - name: butterfly_Frame_13
+    originalName: 
+    pivot: {x: 3.1666667, y: -3.7894738}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 18
+      height: 19
+    spriteID: 599f972d8a769374e958ea1d5ded2d94
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: butterfly_Frame_14
+    originalName: 
+    pivot: {x: 3.875, y: -4.8125}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 54
+      y: 100
+      width: 16
+      height: 16
+    spriteID: 219a9092cbccd214cba1607e449f47f0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 54, y: 100}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
@@ -368,8 +486,8 @@ ScriptedImporter:
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
-        x: 17
-        y: 73
+        x: 32
+        y: 78
         width: 16
         height: 16
       spriteId: 134dd4db56d8efa44b9f26a711dadda0
@@ -377,8 +495,8 @@ ScriptedImporter:
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
-        x: 9
-        y: 75
+        x: 37
+        y: 77
         width: 16
         height: 16
       spriteId: a75eeb0a79c8aa541b1a591339bd84da
@@ -386,11 +504,65 @@ ScriptedImporter:
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
+        x: 39
+        y: 79
+        width: 16
+        height: 16
+      spriteId: 86ab18acd14ce0343a9c60437960d7ba
+    - name: butterfly_Frame_9
+      frameIndex: 9
+      additiveSortOrder: 0
+      cellRect:
+        x: 31
+        y: 82
+        width: 16
+        height: 16
+      spriteId: be08dc79c0bb5594da7eedca3bd3dfe7
+    - name: butterfly_Frame_10
+      frameIndex: 10
+      additiveSortOrder: 0
+      cellRect:
+        x: 25
+        y: 79
+        width: 16
+        height: 16
+      spriteId: e337516c08b70f14bb496f05904000ea
+    - name: butterfly_Frame_11
+      frameIndex: 11
+      additiveSortOrder: 0
+      cellRect:
+        x: 23
+        y: 75
+        width: 16
+        height: 16
+      spriteId: e8285ab80968bbb4a95bdba250c26e1d
+    - name: butterfly_Frame_12
+      frameIndex: 12
+      additiveSortOrder: 0
+      cellRect:
+        x: 17
+        y: 73
+        width: 16
+        height: 16
+      spriteId: e7b29b68d0ab06740864a6c5d1e74721
+    - name: butterfly_Frame_13
+      frameIndex: 13
+      additiveSortOrder: 0
+      cellRect:
+        x: 7
+        y: 72
+        width: 18
+        height: 19
+      spriteId: 599f972d8a769374e958ea1d5ded2d94
+    - name: butterfly_Frame_14
+      frameIndex: 14
+      additiveSortOrder: 0
+      cellRect:
         x: 2
         y: 77
         width: 16
         height: 16
-      spriteId: 86ab18acd14ce0343a9c60437960d7ba
+      spriteId: 219a9092cbccd214cba1607e449f47f0
     linkedCells: []
     parentIndex: -1
   platformSettings: []
